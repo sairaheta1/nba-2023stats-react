@@ -1,11 +1,11 @@
 import classes from "./app.module.scss"
+import Header from "./header/header.jsx"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className='classes.app'></div>
+      <Header></Header>
       {/* Header */}
       {/* Scoreboard */}
       {/* Footer */}
