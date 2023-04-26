@@ -1,0 +1,34 @@
+$blueNBA: #17408b;
+
+footer {
+background-color: $blueNBA;
+padding: 1.25em;
+}
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+.name, a {
+  color: white;
+  font-size: 1.25rem;
+}
+a {
+  margin-left: .75em;
+}
+a:link {
+  color: white;
+  text-decoration: underline dotted white;
+}
+a:visited {
+  text-decoration: underline dotted white;
+}
+p {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
