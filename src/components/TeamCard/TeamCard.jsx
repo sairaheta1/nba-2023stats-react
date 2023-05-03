@@ -1,9 +1,10 @@
 import React from 'react';
 import * as NBAIcons from 'react-nba-logos'
 import '../TeamView/teamview.scss';
+import './TeamCard.scss'
 
 const TeamCard = (team) => {
-  const Icon = NBAIcons[team.abbreviation];
+   const Icon = NBAIcons[team.abbreviation];
   return (
     <div className="team-solo-component">
     <Icon size={60}></Icon>
