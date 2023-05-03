@@ -10,4 +10,21 @@ margin-left: 0.5em;
 .team-solo-component {
   flex-direction: column;
   max-width: 100%;
+  background-color: #27272a;
+  margin-left: 0;
+  padding: 1.25rem;
+  margin-bottom: 0.15em;
+}
+.team-selection-component {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .team-selection-component {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.15em;
+
+  }
 }

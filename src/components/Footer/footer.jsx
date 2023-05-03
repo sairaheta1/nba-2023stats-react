@@ -1,5 +1,7 @@
 import React from 'react';
 import classes from "./footer.scss"
+import * as NBAIcons from 'react-nba-logos'
+import Teamview from '../TeamView/teamview';
 
 const Footer = () => {
   return (
