@@ -1,14 +1,14 @@
 import classes from "./app.module.scss"
 import Footer from "./components/Footer/footer"
-import ScoreboardGrid from "./components/grid/ScoreboardGrid"
+import TeamGrid from "./components/grid/TeamGrid.jsx"
 import Header from "./components/header/header.jsx"
-import Scoreboard from "./components/scoreBoard/scoreboard"
+
 
 function App() {
   return (
     <>
       <Header></Header>
-      <Scoreboard></Scoreboard>
+      <TeamGrid></TeamGrid>
       <Footer></Footer>
     </>
   )

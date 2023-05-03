@@ -1,6 +1,7 @@
 import React from 'react';
 import data from './test.json'
 import TeamCard from '../TeamCard/TeamCard';
+import './TeamGrid.css'
 
 // NOTES ON HOOKS:
   // hooks can only be used in function components, not class components
@@ -12,17 +13,16 @@ import TeamCard from '../TeamCard/TeamCard';
   //useEffect(): everything inside function is re rendered
   // has a second parameter that is an array with values that whenever they change, the hook runs 
 
-const ScoreboardGrid = () => {
+const TeamGrid = () => {
   let teams = [];
-
+ 
+  //grabbing team names and logos from json file
   data.data.map((team) => {
     teams.push(<TeamCard full_name={team.full_name} abbreviation={team.abbreviation}></TeamCard>)
   });
 
   return(
-    <div className='team-selection-component'>
-    {teams}
-    </div>
+    <div className='team-selection-component'>{teams}</div>
   )};
 
-export default ScoreboardGrid;
+export default TeamGrid;

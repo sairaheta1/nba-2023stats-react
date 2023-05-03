@@ -1,0 +1,13 @@
+.team-selection-component {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .team-selection-component {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.15em;
+
+  }
+}
