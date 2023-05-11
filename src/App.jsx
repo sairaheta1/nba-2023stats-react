@@ -10,7 +10,13 @@ function App() {
       <Header></Header>
       <TeamGrid></TeamGrid>
       <Footer></Footer>
+      {/* NEXT THINGS TO WORK ON:
+          - setting up react dom
+          - fetching data from each team's players
+          - what kind of stats I want to retreive
+          - links for each team*/}
     </>
+
   )
 }
 
